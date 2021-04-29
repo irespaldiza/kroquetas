@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Job
+metadata:
+  name: Koketas
+spec:
+  template:
+    spec:
+      containers:
+      - name: Koketa
+        image: irespaldiza/kroqueta:0.1.0
+      OnFailure: whenEating
