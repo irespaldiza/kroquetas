@@ -10,8 +10,8 @@ COPY 50gr_cebolla_francesa .
 COPY 10gr_pasas .
 COPY 10gr_orejones .
 COPY 50gr_px .
-copy 10gr_cebollino .
-copy c.s._pimienta .
+COPY 10gr_cebollino .
+COPY c.s._pimienta .
 COPY C.s._sal .
 COPY C.s._harina .
 COPY C.s._huevo .
