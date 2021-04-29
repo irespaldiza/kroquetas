@@ -6,20 +6,20 @@ LABEL version="0.1.0" \
 
 COPY 100gr_magret_de_pato .
 COPY 100gr_+_50gr_de_mantequilla .
-COPY 50gr de cebolla francesa .
-COPY 10gr de pasas .
-COPY 10gr de orejones .
-COPY 50gr de px .
-COPY 10gr de Cebollino .
-COPY C.s. pimienta .
-COPY C.s. sal .
-COPY C.s. harina .
-COPY C.s. huevo .
-COPY C.s. pan rallado .
-COPY C.s. panko .
-COPY 100gr de harina .
-COPY 650gr de caldo de pollo .
-COPY 8 hojas de gelatina .
+COPY 50gr_cebolla_francesa .
+COPY 10gr_pasas .
+COPY 10gr_orejones .
+COPY 50gr_px .
+copy 10gr_cebollino .
+copy c.s._pimienta .
+COPY C.s._sal .
+COPY C.s._harina .
+COPY C.s._huevo .
+COPY C.s._pan_rallado .
+COPY C.s._panko .
+COPY 100gr_harina .
+COPY 650gr_caldo_de_pollo .
+COPY 8_hojas_gelatina .
 
 RUN Picar las cebollas, magret, Cebollino, pasas y orejones && \
     Fondear las cebollas en los 50gr de mantequilla hasta que esté dorada && \
@@ -39,5 +39,5 @@ RUN Picar las cebollas, magret, Cebollino, pasas y orejones && \
     Dejar enfriar con film a Ras de farsa && \
     Cortar con cuchillo cuadrados && \
     pasar x harina huevo y pan rallado mezclado con panko && \
-    \freír
+ENTRYPOINT freír
     # Al freír la gelatina se disuelve y quedan unas croquetas melosas
